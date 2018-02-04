@@ -48,6 +48,11 @@ public class NIOClient implements Runnable {
                         continue;
                     }
                     if (key.isConnectable()) {
+                        SocketChannel socketChannel = (SocketChannel) key.channel();
+                        // 如果正在连接，则完成连接
+                        if(socketChannel.isConnectionPending()){
+                            socketChannel.finishConnect();
+                        }
                         sendMsg(key);
                     }else if(key.isReadable()){
                         readFromServer(key);
@@ -73,11 +78,6 @@ public class NIOClient implements Runnable {
 
     private void sendMsg(SelectionKey key) throws IOException {
         SocketChannel socketChannel = (SocketChannel) key.channel();
-
-        // 如果正在连接，则完成连接
-        if(socketChannel.isConnectionPending()){
-            socketChannel.finishConnect();
-        }
         writeBuffer.clear();
         byte[] bytes = new byte[1024];
         System.in.read(bytes);
