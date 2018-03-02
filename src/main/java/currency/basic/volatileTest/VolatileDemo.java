@@ -1,6 +1,7 @@
-package currency.basic.volatileDemo;
+package currency.basic.volatileTest;
 
 /**
+ *
  * @Author chenlei10
  * @Date 2018/1/29 16:17
  */
