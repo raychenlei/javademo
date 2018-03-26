@@ -1,8 +1,6 @@
 package demo;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  * @Author chenlei10
@@ -15,7 +13,7 @@ public class MyTest {
 //        List<Integer> collect = list.stream().filter(t -> t > 5).collect(Collectors.toList());
 //        System.out.println(collect.size());
 
-        List<String> list = new ArrayList<>();
+//        List<String> list = new ArrayList<>();
 //        list.add("1");
 //        list.add("2");
 //        list.add("3");
@@ -25,9 +23,40 @@ public class MyTest {
 //
 //        System.out.println(a == newArray);
 
-        int[] a = {1,3};
-        int[] b = {2};
-        System.out.println(findMedianSortedArrays(a,b));
+//        int[] a = {1,3};
+//        int[] b = {2};
+//        System.out.println(findMedianSortedArrays(a,b));
+
+//        int[] a = {1,2,3};
+//        arrayTest(a);
+//        System.out.println(Arrays.toString(a));
+
+//
+//        String str1 = new StringBuilder().append("he").append("lo").toString();
+//        System.out.println(str1.intern() == str1);
+//
+
+        String s = new String("1");
+//        String s = new StringBuilder().append("1").toString();
+        s.intern();
+        String s2 = "1";
+        System.out.println(s == s2);
+
+//        String s3 = new String("1") + new String("1");
+//        s3.intern();
+//        String s4 = "11";
+//        System.out.println(s3 == s4);
+
+
+    }
+
+    public static void arrayTest(int[] a){
+        a[2] = 5;
+        int[] b = {2,4,6};
+        a = b;
+        System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(a));
+
 
     }
 
