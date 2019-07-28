@@ -10,11 +10,17 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
 /**
- * @Author chenlei10
- * @Date 2018/1/30 9:52
- */
+ *
+ * @description ceshi
+ * @author chenlei
+ * @date 2019/7/28 3:50 PM
+ * @version 1.0
+ **/
 public class NIOServer implements Runnable {
 
+    /**
+     *
+     */
     private Selector selector;
 
     private ByteBuffer readBuffer = ByteBuffer.allocate(1024);
