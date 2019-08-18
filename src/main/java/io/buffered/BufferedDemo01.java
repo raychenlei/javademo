@@ -8,8 +8,8 @@ import java.io.*;
  * 处理流-缓冲流
  * 1、拷贝文件
  * 2、拷贝目录（子目录和文件）
- * @Author chenlei10
- * @Date 2017/10/13 10:35
+ * @author chenlei10
+ * @date 2017/10/13 10:35
  */
 public class BufferedDemo01 {
     /**

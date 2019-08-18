@@ -8,8 +8,8 @@ import java.io.*;
  * 1、读取文件
  * 2、按字节写入文件
  * 3、拷贝文件
- * @Author chenlei10
- * @Date 2017/10/12 17:23
+ * @author chenlei10
+ * @date 2017/10/12 17:23
  */
 public class FileISDemo01 {
     public void writeToFile(String filePath){
@@ -37,6 +37,7 @@ public class FileISDemo01 {
     }
 
     public void readFile(String filePath){
+        //1、建立联系
         File file = new File(filePath);
         if (!file.isFile()) {
             System.out.println(filePath + " is not a file");
@@ -44,19 +45,17 @@ public class FileISDemo01 {
         }
         InputStream is = null;
         try {
+            //2、选择流，包裹源头
             is = new FileInputStream(file);
+            //3、定义读取的数组，按数组的大小进行读取
             byte[] buf = new byte[1024];
-
-            while(-1 != is.read(buf,0,1024)){
+            while(-1 != is.read(buf,0,buf.length)){
                 System.out.println(new String(buf));
             }
-
-        } catch (FileNotFoundException e) {
-
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
+            //4、关闭流
             FileUtil.closeIO(is);
         }
     }

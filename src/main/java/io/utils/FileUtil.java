@@ -4,8 +4,8 @@ import java.io.Closeable;
 import java.io.IOException;
 
 /**
- * @Author chenlei10
- * @Date 2017/10/12 17:42
+ * @author chenlei10
+ * @date 2017/10/12 17:42
  */
 public class FileUtil {
     public static void closeIO(Closeable ... ios){
