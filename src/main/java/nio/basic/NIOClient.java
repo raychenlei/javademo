@@ -9,8 +9,8 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
 /**
- * @Author chenlei10
- * @Date 2018/1/30 15:20
+ * @author chenlei10
+ * @date 2018/1/30 15:20
  */
 public class NIOClient implements Runnable {
 
