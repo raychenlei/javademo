@@ -3,8 +3,8 @@ package algorithm;
 import java.util.Arrays;
 
 /**
- * @Author chenlei10
- * @Date 2018/3/1 11:28
+ * @author chenlei10
+ * @date 2018/3/1 11:28
  */
 public class Sort {
 

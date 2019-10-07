@@ -1,9 +1,8 @@
 package algorithm;
 
 /**
- * @Auther: chenlei
- * @Date: 2018/8/1 13:30
- * @Description:
+ * @author chenlei
+ * @date 2018/8/1 13:30
  */
 public class IntegerDemo {
     public static void main(String[] args) {
