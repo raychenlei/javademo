@@ -1,7 +1,7 @@
 package exception;
 
 /**
- * @Auther: chenlei
+ * @utheor chenlei
  * @Date: 2018/7/10 13:04
  * @Description:
  */

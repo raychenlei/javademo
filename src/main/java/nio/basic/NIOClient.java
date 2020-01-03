@@ -20,7 +20,7 @@ public class NIOClient implements Runnable {
     private ByteBuffer writeBuffer = ByteBuffer.allocate(1024);
 
 
-    public NIOClient() {
+    private NIOClient() {
         try {
             selector = Selector.open();
             SocketChannel socketChannel = SocketChannel.open();

@@ -26,7 +26,7 @@ public class NIOServer implements Runnable {
     private ByteBuffer readBuffer = ByteBuffer.allocate(1024);
     private ByteBuffer writeBuffer = ByteBuffer.allocate(1024);
 
-    public NIOServer(int port) {
+    private NIOServer(int port) {
         try {
             selector = Selector.open();
             ServerSocketChannel ssc = ServerSocketChannel.open();
