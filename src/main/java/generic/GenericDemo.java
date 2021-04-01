@@ -44,15 +44,6 @@ class Node<T> {
 }
 
 class MyNode extends Node<Integer> {
-
-    /**
-     * 编译时编译器会生成这么一个桥方法，这才是实际覆盖了父类的方法，父类中的T都被擦除，变成了Object
-     * <p>
-     * public void setData(Object data) {
-     * setData((Integer) data);
-     * }
-     **/
-
     @Override
     public void setData(Integer data) {
         System.out.println("MyNode setData");
