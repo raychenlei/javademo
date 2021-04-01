@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @Author chenlei10
- * @Date 2018/1/31 11:33
+ * @author chenlei10
+ * @date 2018/1/31 11:33
  */
 public class ListTest {
     public void delete(){

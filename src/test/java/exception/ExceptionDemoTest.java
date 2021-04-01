@@ -6,8 +6,8 @@ import static org.junit.Assert.*;
 
 /**
  * @Auther: chenlei
- * @Date: 2018/7/10 13:11
- * @Description:
+ * @date 2018/7/10 13:11
+ * @description
  */
 public class ExceptionDemoTest {
 

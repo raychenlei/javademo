@@ -3,8 +3,8 @@ package demo;
 import java.util.Arrays;
 
 /**
- * @Author chenlei10
- * @Date 2018/2/9 17:37
+ * @author chenlei10
+ * @date 2018/2/9 17:37
  */
 public class MyTest {
     public static void main(String[] args) {

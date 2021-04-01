@@ -3,8 +3,8 @@ package io.object;
 import java.io.Serializable;
 
 /**
- * @Author chenlei10
- * @Date 2017/10/13 17:44
+ * @author chenlei10
+ * @date 2017/10/13 17:44
  */
 public class Person implements Serializable{
     private String name;

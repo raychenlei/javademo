@@ -8,8 +8,8 @@ import java.io.*;
  * 节点流-字节数组
  * 字节数组流经常在网络环境下使用，通常数据较少
  * 字节数组流和文件流的使用方式一样
- * @Author chenlei10
- * @Date 2017/10/13 15:19
+ * @author chenlei10
+ * @date 2017/10/13 15:19
  */
 public class ByteArrayDemo {
 

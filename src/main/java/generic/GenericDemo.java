@@ -3,8 +3,8 @@ package generic;
 import java.util.List;
 
 /**
- * @Author chenlei10
- * @Date 2018/1/22 14:06
+ * @author chenlei10
+ * @date 2018/1/22 14:06
  */
 public class GenericDemo {
     public static void main(String[] args) {

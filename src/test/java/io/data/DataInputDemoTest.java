@@ -5,8 +5,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * @Author chenlei10
- * @Date 2017/10/13 17:02
+ * @author chenlei10
+ * @date 2017/10/13 17:02
  */
 public class DataInputDemoTest {
     @Test

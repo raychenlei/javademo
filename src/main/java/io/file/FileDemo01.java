@@ -5,8 +5,8 @@ import java.io.File;
 /**
  * 1、输出子孙目录|文件的绝对路径
  * 2、输出子孙目录下的指定类型文件的绝对路径
- * @Author chenlei10
- * @Date 2017/10/12 16:28
+ * @author chenlei10
+ * @date 2017/10/12 16:28
  */
 public class FileDemo01 {
 

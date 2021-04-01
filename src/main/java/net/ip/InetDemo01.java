@@ -4,8 +4,8 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 /**
- * @Author raychenlei
- * @Date 2017/10/6 22:17
+ * @author raychenlei
+ * @date 2017/10/6 22:17
  */
 public class InetDemo01 {
     public static void main(String[] args) throws UnknownHostException {

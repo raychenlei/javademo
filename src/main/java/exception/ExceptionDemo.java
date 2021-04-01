@@ -1,9 +1,9 @@
 package exception;
 
 /**
- * @utheor chenlei
- * @Date: 2018/7/10 13:04
- * @Description:
+ * @author chenlei
+ * @date 2018/7/10 13:04
+ * @description
  */
 public class ExceptionDemo {
     public void testException(){

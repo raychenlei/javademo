@@ -2,8 +2,8 @@ package currency.basic.volatileTest;
 
 /**
  * 使用volatile进行双重校验
- * @Author chenlei10
- * @Date 2018/1/29 18:17
+ * @author chenlei10
+ * @date 2018/1/29 18:17
  */
 public class Singleton {
     //volatile保证了可见性

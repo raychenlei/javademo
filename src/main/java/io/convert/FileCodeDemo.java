@@ -7,8 +7,8 @@ import java.io.*;
 /**
  * 文件编码格式转换
  * 编码(output)+解码(input)
- * @Author chenlei10
- * @Date 2017/10/13 14:18
+ * @author chenlei10
+ * @date 2017/10/13 14:18
  */
 public class FileCodeDemo {
 

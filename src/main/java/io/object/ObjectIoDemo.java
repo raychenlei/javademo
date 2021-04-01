@@ -10,8 +10,8 @@ import java.io.*;
  *
  * 1、将对象写入文件
  * 2、从文件读取对象
- * @Author chenlei10
- * @Date 2017/10/13 17:44
+ * @author chenlei10
+ * @date 2017/10/13 17:44
  */
 public class ObjectIoDemo {
     public void writeToFile(String filePath){

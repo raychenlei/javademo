@@ -5,8 +5,8 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * @Author raychenlei
- * @Date 2018/1/22 0:15
+ * @author raychenlei
+ * @date 2018/1/22 0:15
  */
 public class ByteArrayDemoTest {
     @Test

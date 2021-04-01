@@ -9,8 +9,8 @@ import java.io.*;
  * 读取写入基本数据类型，读取和写入的顺序要一样,顺序不一样会抛EOF异常
  *
  * 分别从文件和字节数组读取和写入数据
- * @Author chenlei10
- * @Date 2017/10/13 16:55
+ * @author chenlei10
+ * @date 2017/10/13 16:55
  */
 public class DataInputDemo {
     public void writeToFile(String filePath){

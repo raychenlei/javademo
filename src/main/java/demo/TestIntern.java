@@ -1,8 +1,8 @@
 package demo;
 
 /**
- * @Author chenlei10
- * @Date 2018/3/26 18:51
+ * @author chenlei10
+ * @date 2018/3/26 18:51
  */
 public class TestIntern {
     public static void main(String[] args) {
