@@ -29,7 +29,6 @@ public class BookTest {
         Class aClass0 = list4.get(0).getClass();
         System.out.println("aClass2:" + aClass2.getName());
         System.out.println("aClass0:" + aClass0.getName());
-//        List<MathBook> list5 = list4;
 
     }
 }
